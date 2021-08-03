@@ -1,0 +1,16 @@
+{
+  "handlers": [
+    {
+      "fn": "createUser",
+      "path": "/createUser",
+      "pathVariables": ["user_id"],
+      "queryVariables": []
+    },
+    {
+      "fn": "listUsers",
+      "path": "/listUsers",
+      "pathVariables": [],
+      "queryVariables": ["limit", "page"]
+    }
+  ]
+}
